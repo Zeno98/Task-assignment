@@ -1,0 +1,29 @@
+.heading{
+    color: greenyellow;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  h2{
+    color: greenyellow;
+  }
+
+  .allvotes{
+    width: 100%;
+  }
+  p{
+    color: white;
+  }

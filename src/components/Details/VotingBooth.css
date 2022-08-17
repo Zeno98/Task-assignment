@@ -1,0 +1,42 @@
+#names{
+    color: white;
+}
+#point{
+    color:white;
+}
+#options{
+    color:white;
+}
+
+#name{
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+}
+#points{
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+}
+
+#movie-name{
+    border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+}
+
+#btn{
+    border: 0px;
+    border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+    background-color: greenyellow;
+    font-weight: bold;
+
+}
+.allVote{
+    margin-top: 20px;
+    width: 100%;
+}

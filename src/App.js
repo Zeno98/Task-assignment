@@ -1,24 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import VotingBooth from './components/Details/VotingBooth';
+
 
 function App() {
   return (
+    <>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav className='navbar'>
+        <span className='left-side'>Task | Oyelabs</span>
+        <span className='right-side'>
+        <span>Info</span>
+        <span>Task</span>
+        </span>
+      </nav>
+      <div className='votingBooth'>
+        <header id='voteHead'>Voting Booth</header>
+      <VotingBooth/>
+      </div>
+      {/* <VotingBooth/> */}
     </div>
+
+    </>
   );
 }
 
